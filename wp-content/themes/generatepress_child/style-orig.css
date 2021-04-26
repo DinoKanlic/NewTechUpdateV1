@@ -1,0 +1,1024 @@
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+
+/* webButler */
+/* logo size */
+img.header-image.is-logo-image {
+	height: 100px;
+}
+
+.main-navigation .main-nav ul li a,
+.menu-toggle,
+.main-navigation .mobile-bar-items a {
+	line-height: 25px;
+}
+
+/* navigation hover lines */
+@media (min-width: 769px) {
+	.main-navigation .menu > .menu-item > a:after {
+		content: '';
+		position: absolute;
+		right: 50%;
+		left: 50%;
+		color: #ccabc1;
+		top: -6px;
+		transform: translateX(-50%);
+		display: block;
+		width: 0;
+		height: 2px;
+		background-color: #cc5252;
+		transition: 0.3s width ease;
+	}
+}
+
+/* hide mobile nav on bigger displays */
+@media (min-width: 1051px) {
+	.slideout-navigation .main-nav {
+		display: none;
+	}
+}
+
+/* home hero */
+.home-hero-headings h1 {
+	text-transform: uppercase;
+	font-size: 2.2em;
+}
+
+.home-hero-headings p {
+	font-size: 1.36em;
+}
+
+.home-hero-headings .button {
+	background-color: #d330;
+}
+
+/* other heros */
+.hero-headings h1 {
+	text-transform: uppercase;
+	font-size: 2.2em;
+}
+
+.hero-headings p {
+	font-size: 1.36em;
+}
+
+.hero-headings .button {
+	background-color: #d330;
+}
+
+/* navigation link colors */
+.main-navigation .main-nav ul ul li a {
+	color: #000;
+}
+
+.main-navigation .main-nav ul ul li.current-menu-item a {
+	color: #d33;
+}
+
+/* navigation branding margin */
+div.navigation-branding {
+	margin-left: 0px;
+}
+
+/* center site navigation for responsive */
+@media screen and (max-width: 1255px) and (min-width: 769px) {
+	#site-navigation .navigation-branding,
+	#sticky-navigation .navigation-branding {
+		margin-left: 35px !important;
+	}
+
+	div#footer-widgets {
+		padding: 40px;
+	}
+}
+
+/* footer responsive metadata */
+@media (max-width: 768px) {
+	#footer-widgets {
+		padding-right: 20px !important;
+		padding-left: 20px !important;
+	}
+
+	.footer-widget-1.grid-parent.grid-25.tablet-grid-50.mobile-grid-100 {
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 980px) and (min-width: 782px) {
+	#footer-widgets .inside-footer-widgets {
+		display: grid;
+		grid-template-columns: 30% 30% 30%;
+		column-gap: 5%;
+	}
+
+	.footer-widget-1.grid-parent.grid-25.tablet-grid-50.mobile-grid-100 {
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 781px) and (min-width: 600px) {
+	#footer-widgets .inside-footer-widgets {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		column-gap: 5%;
+	}
+
+	.footer-widget-1.grid-parent.grid-25.tablet-grid-50.mobile-grid-100 {
+		width: 100% !important;
+	}
+}
+
+/* navigation search form edits */
+.navigation-search input[type='search'] {
+	border-bottom: 1px solid #d33;
+}
+
+/* full width sticky header */
+.navigation-stick:not(.gen-sidebar-nav) {
+	max-width: 100%;
+}
+
+/* mob menu */
+aside#woocommerce_product_categories-1 {
+	margin: 15px;
+}
+
+/* product gallery */
+.woocommerce-product-gallery {
+	width: 100% !important;
+}
+
+/* no break after 4th element in gallery */
+.woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images
+	> ol
+	> li:nth-child(5) {
+	clear: none;
+}
+
+/* sub menu background and text*/
+ul#menu-hauptmenue ul.sub-menu,
+ul#menu-mainmenurelative ul.sub-menu {
+	background-color: #fff;
+}
+
+.main-navigation .main-nav ul ul li a:hover {
+	color: #d33;
+}
+
+ul#menu-hauptmenue li:hover a,
+ul#menu-hauptmenue li:focus a,
+.main-navigation .main-nav ul ul li.current-menu-item a,
+ul#menu-hauptmenue li.sfHover a,
+ul#menu-hauptmenue-1 ul,
+ul#menu-hauptmenue-1 li a:hover,
+ul#menu-hauptmenue-1 li a:focus,
+ul#menu-mainmenurelative li:hover a,
+ul#menu-mainmenurelative li:focus a,
+ul#menu-mainmenurelative li.sfHover a,
+ul#menu-mainmenurelative-1 ul,
+ul#menu-mainmenurelative-1 li a:hover,
+ul#menu-mainmenurelative-1 li a:focus {
+	background-color: #fff;
+}
+
+ul#menu-hauptmenue li:focus a,
+.main-navigation .main-nav ul ul li.current-menu-item a {
+	color: #d33;
+}
+
+/* search form for red bottom border */
+.navigation-search.nav-search-active {
+	max-width: 98%;
+	margin: auto;
+}
+
+/* close button color */
+#site-navigation .mobile-bar-items span.search-item.active.close-search a {
+	color: #d33;
+}
+
+/* Footer background*/
+.footer-widgets {
+	background-color: #ededed;
+}
+
+/* Footer widgets text syles*/
+.footer-widget-2 p {
+	margin: 0;
+	padding-bottom: 1em;
+}
+
+.footer-widget-3 p {
+	color: #6d6d6d;
+}
+
+#footer-widgets p {
+	line-height: 20.8px;
+}
+
+/* Footer widget title text syles*/
+.footer-widgets .widget-title {
+	margin: 0;
+	padding-bottom: 10px;
+	color: #d33;
+	line-height: 20.8px;
+}
+
+/* Spacings and pading of footer elements */
+#footer-widgets .widget {
+	padding: 0;
+}
+
+#footer-widgets {
+	padding: 4.7%;
+}
+
+.site-footer .footer-widgets-container .inside-footer-widgets {
+	margin-left: 0;
+}
+
+/* Copyright styling */
+.site-info {
+	background-color: #d33;
+	text-align: left;
+	font-size: 16px;
+}
+
+.copyright-bar a:hover {
+	opacity: 0.7;
+}
+
+/* Contact form section h3 alginment nad spacing */
+.ot-er-cf-left h3 {
+	text-align: left;
+	margin-top: 1em;
+	max-width: 80%;
+}
+
+/* Adding class for padding to box*/
+.ot-er-cf-left {
+	padding: 1em;
+}
+
+/* Override Link colors in h2 */
+.ot-h2-color a,
+.ot-h2-color a:hover {
+	color: #333;
+}
+
+/* Adding hoverstyle to custom button class */
+.ot-era-button-red a {
+	transition: all 0.2s;
+}
+
+.ot-era-button-red a:after {
+	content: '>';
+	margin-left: -7px;
+	font-weight: 900;
+	opacity: 0;
+	transition: all 0.2s;
+}
+
+.ot-era-button-red a:hover:after {
+	margin-left: 7px;
+	opacity: 1;
+}
+
+.ot-era-button-red a:hover {
+	border-color: #eeeeee;
+	background: #eeeeee;
+}
+
+/* Adding Parallex section class*/
+.wp-block-group.alignfull.ot-era-parallax {
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 4em 1em;
+}
+
+/* Adding background to goup sections with parallex */
+.ot-techfied-g1 {
+	background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.45), rgba(10, 10, 10, 0.45)),
+		url(/wp-content/uploads/2018/11/Titelbild_Techfied-min-2880x1800.jpg);
+}
+
+@media only screen and (max-width: 1024px) {
+	.ot-techfied-g1 {
+		background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.45), rgba(10, 10, 10, 0.45)),
+			url(/wp-content/uploads/2018/11/Titelbild_Techfied-min-2880x1800.jpg);
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.ot-techfied-g1 {
+		background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.45), rgba(10, 10, 10, 0.45)),
+			url(/wp-content/uploads/2018/11/Titelbild_Techfied-min-1080x675.jpg);
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.ot-techfied-g1 {
+		background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.45), rgba(10, 10, 10, 0.45)),
+			url(/wp-content/uploads/2018/11/Titelbild_Techfied-min-1080x675.jpg);
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.ot-techfied-g1 {
+		background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.45), rgba(10, 10, 10, 0.45)),
+			url(/wp-content/uploads/2018/11/Titelbild_Techfied-min-600x337.jpg);
+	}
+}
+
+.ot-techfied-g2 {
+	background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.45), rgba(10, 10, 10, 0.45)),
+		url(/wp-content/uploads/2018/11/Argus_web_optimiert.2-2880x1800.jpeg);
+}
+
+@media only screen and (max-width: 1024px) {
+	.ot-techfied-g2 {
+		background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.45), rgba(10, 10, 10, 0.45)),
+			url(/wp-content/uploads/2018/11/Argus_web_optimiert.2-1080x720.jpeg);
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.ot-techfied-g2 {
+		background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.45), rgba(10, 10, 10, 0.45)),
+			url(/wp-content/uploads/2018/11/Argus_web_optimiert.2-1080x720.jpeg);
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.ot-techfied-g2 {
+		background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.45), rgba(10, 10, 10, 0.45)),
+			url(/wp-content/uploads/2018/11/Argus_web_optimiert.2-1024x683.jpeg);
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.ot-techfied-g2 {
+		background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.45), rgba(10, 10, 10, 0.45)),
+			url(/wp-content/uploads/2018/11/Argus_web_optimiert.2-600x400.jpeg);
+	}
+}
+
+.ot-techfied-g3 {
+	background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.45), rgba(10, 10, 10, 0.45)),
+		url(/wp-content/uploads/2020/11/Baustelle_Daemmerung_Komponenten-min.jpg);
+}
+
+@media only screen and (max-width: 1024px) {
+	.ot-techfied-g3 {
+		background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.45), rgba(10, 10, 10, 0.45)),
+			url(/wp-content/uploads/2020/11/Baustelle_Daemmerung_Komponenten-min-2048x1152.jpg);
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.ot-techfied-g3 {
+		background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.45), rgba(10, 10, 10, 0.45)),
+			url(/wp-content/uploads/2020/11/Baustelle_Daemmerung_Komponenten-min-1536x864.jpg);
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.ot-techfied-g3 {
+		background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.45), rgba(10, 10, 10, 0.45)),
+			url(/wp-content/uploads/2020/11/Baustelle_Daemmerung_Komponenten-min-1024x576.jpg);
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.ot-techfied-g3 {
+		background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.45), rgba(10, 10, 10, 0.45)),
+			url(/wp-content/uploads/2020/11/Baustelle_Daemmerung_Komponenten-min-600x337.jpg);
+	}
+}
+
+/* Adding transparent button class*/
+.wp-block-buttons .ot-era-trans-btn a {
+	background-color: transparent;
+}
+
+/* override bullets defualt margin */
+ol,
+ul {
+	margin-left: 1em;
+}
+
+/* Center map serch lable vertically */
+.wpsl-input label {
+	margin-top: 8px;
+}
+
+/* Reduce defualt padding top at Kontakt page */
+.page-id-47 #content {
+	padding-top: 10px;
+}
+
+@media (min-width: 1050px) {
+	/* navigation search form edits */
+	.navigation-stick .navigation-search {
+		top: 0px;
+	}
+
+	.navigation-search {
+		top: 25px;
+	}
+
+	/* hide menu arrows and spacing for menu item */
+	.menu-item-has-children .dropdown-menu-toggle {
+		display: none;
+	}
+
+	.main-navigation .main-nav ul li.menu-item-has-children > a {
+		padding-right: 14px;
+	}
+
+	/* submenu top space */
+	ul.sub-menu li:first-child {
+		margin-top: 10px;
+	}
+
+	.is_stuck ul.sub-menu li:first-child {
+		margin-top: 0;
+	}
+
+	/* active top bar */
+	.main-navigation .main-nav ul li[class*='current-menu-'] > a:after {
+		width: 20px;
+	}
+}
+
+@media (max-width: 1050px) {
+	/* navigation search form edits */
+	.navigation-search.nav-search-active {
+		top: 25px;
+	}
+
+	.navigation-stick .navigation-search {
+		top: 0px;
+	}
+
+	/* close button on mob to be left */
+	span.search-item {
+		transition: 0.3s;
+	}
+
+	span.search-item.active.close-search {
+		margin-right: -90px;
+	}
+
+	/* 	Hide map location text */
+	#wpsl-result-list {
+		display: none;
+	}
+
+	/* Indent submenu on mobile */
+	ul.sub-menu.toggled-on {
+		padding-left: 10px;
+	}
+}
+
+/* Footer widgets size and spacing on desktop */
+@media (min-width: 981px) {
+	.footer-widget-1,
+	.footer-widget-2,
+	.footer-widget-3,
+	.footer-widget-4 {
+		width: 20.8%;
+	}
+
+	.footer-widget-4 {
+		margin-right: 0;
+	}
+
+	.footer-widget-1,
+	.footer-widget-2,
+	.footer-widget-3 {
+		margin-bottom: 5.5%;
+		margin-right: 5.5%;
+	}
+
+	.footer-widgets .widget :last-child {
+		padding-bottom: 0;
+	}
+}
+
+/* Override Footer widgets default style in responsive modes*/
+@media (max-width: 1024px) and (min-width: 981px) {
+	.inside-footer-widgets > div:nth-child(odd) {
+		clear: none;
+	}
+}
+
+@media (max-width: 980px) {
+	.footer-widget-1.grid-parent.grid-25.tablet-grid-50.mobile-grid-100 {
+		padding-right: 10%;
+	}
+
+	#footer-widgets {
+		padding: 4.4% 5%;
+	}
+
+	.tablet-grid-50 {
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 767px) {
+	#footer-widgets .grid-container .inside-footer-widgets .grid-parent {
+		float: left;
+		width: 50%;
+	}
+}
+
+@media (max-width: 768px) {
+	/* navigation search form edits */
+	.navigation-stick .navigation-search {
+		top: 0;
+	}
+
+	.navigation-stick .navigation-search input[type='search'] {
+		height: 100px;
+	}
+
+	/* Decrease 4 services boxes header's font size*/
+	#ot-era-4serv .ot-h2-color {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 767px) {
+	.footer-widget-1.grid-parent.grid-25.tablet-grid-50.mobile-grid-100 {
+		padding-right: 0;
+	}
+
+	#footer-widgets {
+		padding: 11%;
+	}
+
+	/* 	Decrease Hoero Heading font on mobile */
+	.hero-headings h1 {
+		font-size: 1.5em;
+	}
+}
+
+@media (min-width: 1255px) {
+	#footer-widgets {
+		padding: 4.7% 40px !important;
+	}
+}
+
+@media (max-width: 599px) {
+	/* Override the default on coloumn view for the 4 services boxes on mobile 
+(theme already uses !important in it's media query) */
+	#ot-era-4serv .wp-block-column {
+		flex-basis: calc(50% - 10px) !important;
+		padding: 20px 5px;
+	}
+
+	/*Adding badding below h2 to set equal heights as it's on two lines and the one next to it is in 3 lines*/
+	#ot-era-4serv > div:nth-child(3) > h2 {
+		padding-bottom: 1em;
+	}
+
+	/* Adding margin for kontakt header on small screen */
+	h3.ot-era-kontakt-h3 {
+		margin-top: 2em;
+	}
+}
+
+/* END webButler */
+
+/* GeneratePress Site CSS */
+.main-navigation .menu > .menu-item > a:hover:after,
+.main-navigation .menu > .menu-item > a:focus:after,
+.main-navigation .menu > .current-menu-item > a:after {
+	width: 20px;
+	color: #cc5252;
+}
+
+/* button lift on hover */
+
+.button {
+	color: #cc5252;
+	background-color: #ffffff;
+	border: 2px solid #cc5252;
+	letter-spacing: 0.1em;
+	padding: 9px 14.56px;
+	transition: all 400ms ease-in-out !important;
+}
+
+.button:hover {
+	transform: translate3d(0, -4px, 0);
+}
+
+/* post comment form button styling */
+
+.comment-form input[type='submit'] {
+	color: #cc5252;
+	background-color: #ffffff;
+	border: 2px solid #cc5252;
+	letter-spacing: 0.2em;
+	padding: 12px 20px;
+	transition: all 400ms ease-in-out !important;
+}
+
+.comment-form input[type='submit']:hover {
+	transform: translate3d(0, -4px, 0);
+}
+
+/* image block left border */
+
+.left-border img {
+	border-left: 4px solid #cc5252;
+}
+
+/* image block right border */
+
+.right-border img {
+	border-right: 4px solid #cc5252;
+}
+
+/* image block top border */
+
+.top-border img {
+	border-top: 4px solid #cc5252;
+}
+
+/* mobile header spacing */
+
+.mobile-header-navigation {
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+/*--- Off Canvas Panel ---*/
+/* Off Canvas Panel Widget styling */
+.slideout-widget.woocommerce ul li {
+	line-height: 2em;
+	display: grid;
+	grid-template-columns: 0 90% 10%;
+}
+
+.slideout-navigation .slideout-widget ul.product-categories li {
+	grid-template-columns: 90% 10%;
+}
+
+.slideout-widget:not(:first-of-type) {
+	border-top: 1px solid #ccc;
+	padding-top: 2em;
+}
+
+/*=== WOOCOMMERCE ===*/
+/*--- SINGLE PRODUCT ---*/
+
+/* Stacked Gallery for desktop and sticky summary */
+
+@media (min-width: 768px) {
+	.woo-summary-wrap {
+		display: grid;
+		grid-template-columns: 60% 40%;
+		grid-template-rows: auto;
+		margin-bottom: 80px;
+	}
+
+	.woo-gallery-stack {
+		grid-column: 1;
+	}
+
+	.woocommerce-tabs {
+		grid-column: 1;
+	}
+
+	.woocommerce div.product div.summary {
+		grid-column: 2;
+		grid-row: 1;
+		margin-left: 20px;
+		position: -webkit-sticky;
+		position: sticky;
+		top: 105px;
+		bottom: 100px;
+		padding-right: 20px;
+	}
+
+	.single-product span.onsale {
+		position: absolute;
+		top: 0;
+	}
+}
+
+/* Add some space above price tag */
+.woocommerce div.product p.price,
+.woocommerce div.product span.price,
+.woocommerce div.product p.price ins {
+	margin-top: 10px;
+}
+
+/* Breadcrumn and post meta styling */
+.product_meta > span,
+.woocommerce-breadcrumb {
+	text-transform: uppercase;
+	font-size: 12px !important;
+}
+
+.woocommerce-product-details__short-description {
+	font-size: 14px;
+}
+
+.woocommerce-product-details__short-description blockquote {
+	border-left: 5px solid rgba(0, 0, 0, 0.05);
+	padding: 10px;
+	font-style: italic;
+	margin: 0 0 1.5em;
+	position: relative;
+	font-size: 14px;
+}
+
+/*--- SHOP AND ARCHIVE ---*/
+.summary.entry-summary .price {
+	margin-bottom: 1em;
+}
+
+.woocommerce ul.products li.product.sales-flash-overlay .onsale {
+	left: 0;
+	right: auto;
+}
+
+.woocommerce-ordering:after {
+	right: 25px;
+	top: 8px;
+}
+
+/* Position Filter breadcrumb results and ordering */
+.woo-filter-toggle,
+.woocommerce.archive .woocommerce-breadcrumb {
+	padding: 10px 0;
+	margin-right: 20px;
+	float: left;
+	font-size: 14px !important;
+	font-weight: 500;
+	line-height: 20px;
+	display: none;
+}
+
+.woo-filter-toggle a {
+	color: #000;
+}
+
+.main-navigation ul li.slideout-toggle {
+	display: none !important;
+}
+
+.woocommerce .woocommerce-result-count {
+	float: right;
+	margin-right: 20px;
+}
+
+.woocommerce-ordering select {
+	text-transform: uppercase;
+	max-width: 200px;
+	border: 0;
+}
+
+.woo-filter-toggle a:before {
+	padding-right: 2px;
+	position: relative;
+	top: 1px;
+}
+
+/* Woo category nav */
+
+.woo-cat-nav {
+	list-style-type: none;
+	margin-left: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 80px;
+	display: none;
+}
+
+.woo-cat-nav li {
+	padding: 15px 0;
+	margin: 0 10px;
+	border-bottom: 1px solid #e1e1e1;
+	font-size: 0.95em;
+	text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+	.woocommerce .woocommerce-result-count {
+		display: none;
+	}
+
+	#wc-column-container .product {
+		margin-bottom: 2em;
+	}
+
+	.woo-cat-nav {
+		display: block;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	h1.woocommerce-products-header__title,
+	.term-description {
+		text-align: center;
+	}
+
+	.woo-cat-nav {
+		justify-content: center;
+	}
+
+	.woocommerce ul.products li.product a.button {
+		margin-right: unset !important;
+		padding: 10px 0;
+	}
+}
+
+/* Shop Product Styling */
+
+/* Reduce Grid Gap */
+.wc-columns-container .products,
+.woocommerce .related ul.products,
+.woocommerce .up-sells ul.products {
+	grid-gap: 20px;
+}
+
+/* Remove add to cart styling */
+.woocommerce ul.products li.product a.button {
+	padding: 5px 0;
+	color: inherit;
+	background-color: #ffffff;
+	text-transform: uppercase;
+}
+
+/* Transform add to cart and pricing on hover */
+@media (min-width: 768px) {
+	.woocommerce ul.products li.product a.button {
+		transform: translateY(0);
+		width: 100%;
+		opacity: 0;
+		transition: all 0.4s;
+	}
+
+	.woocommerce ul.products li.product:hover a.button,
+	.woocommerce ul.products li.product:hover .price {
+		transform: translateY(calc(-100% - 10px));
+		opacity: 1;
+	}
+
+	.woocommerce ul.products li.product .price {
+		opacity: 1;
+		transition: all 0.4s;
+	}
+
+	.woocommerce ul.products li.product:hover .price {
+		opacity: 0;
+		transform: translateY(calc(-100% - 10px));
+	}
+}
+
+/* Woocommerce Tabs */
+
+.woocommerce-tabs h2 {
+	display: none;
+}
+
+/* Category Shortcode Hover effect */
+.product-category .wc-product-image .inside-wc-product-image {
+	overflow: hidden;
+}
+
+.product-category .wc-product-image img {
+	transition: all 0.3s;
+}
+
+.product-category .wc-product-image:hover img {
+	transform: scale(1.1);
+	transition: all 0.3s;
+}
+
+/* End GeneratePress Site CSS */
+
+/* Give more space to dropdown arrows under main-navigation items */
+@media only screen and (max-width: 1024px) {
+	.menu-item-has-children .dropdown-menu-toggle {
+		padding-right: 24px;
+	}
+}
+
+/* spaces over */
+
+/* add vertical align to hero sections - mobile up to 767px - portrait */
+@media only screen and (max-width: 767px) {
+	.page-hero {
+		position: relative;
+		min-height: 550px;
+	}
+
+	.hero-headings,
+	.home-hero-headings {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.home-hero-headings {
+		margin-top: -30px;
+	}
+}
+
+/* breadcrumb for pages-posts */
+
+.breadcrumb-holder {
+	margin: 0 0 40px 0;
+}
+
+@media only screen and (max-width: 767px) {
+	.breadcrumb-holder {
+		margin: 50px 0;
+	}
+}
+
+/* /breadcrumb */
+
+/* fix woocommerce single product dropdown width */
+.woocommerce div.product form.cart .variations select {
+	width: 100%;
+}
+
+/* fix woocommerce dropdown label line-height */
+.woocommerce div.product form.cart .variations td,
+.woocommerce div.product form.cart .variations th {
+	line-height: 1.2em;
+}
+
+/* sorting dropdown under shop title.  */
+.woocommerce .woocommerce-ordering,
+.woocommerce .woocommerce-result-count {
+	float: left;
+}
+
+.woocommerce .woocommerce-result-count {
+	margin-left: 20px;
+}
+
+.woocommerce-ordering select {
+	padding-left: 0;
+	border: 1px solid #e1e1e1;
+}
+
+/* quick fix for quantity buttons in product page */
+.do-quantity-buttons form .quantity:not(.buttons-added):not(.hidden):after,
+.do-quantity-buttons form .quantity:not(.buttons-added):not(.hidden):before,
+.woocommerce form .quantity.buttons-added .minus,
+.woocommerce form .quantity.buttons-added .plus,
+.woocommerce form .quantity.buttons-added .qty {
+	width: 100% !important;
+}
+
+/* hide shop title */
+.woocommerce-products-header {
+	display: none;
+}
+
+/* right side bar fixing padding to top */
+.widget-area .widget {
+	padding-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+	/* filter price, reverse column in mobile */
+	.right-sidebar .site-content {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+
+/*  MOBILE FIXES for SHOP */
+@media only screen and (max-width: 1024px) {
+	.woocommerce div.product .product_title {
+		font-size: 24px;
+	}
+	.woocommerce div.product form.cart .variations td.label,
+	.woocommerce div.product form.cart .variations td.value {
+		float: left;
+		width: 100%;
+	}
+
+	.woocommerce-page div.product div.summary {
+		width: 100%;
+	}
+}

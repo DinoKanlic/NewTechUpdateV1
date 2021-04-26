@@ -1,0 +1,130 @@
+.filter-bar-container {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	padding: 5px 0px;
+}
+
+#trigger_actions .tablenav {
+	height: auto;
+	min-height: 30px;
+}
+
+#trigger_actions .action-container, .action-container {
+	padding: 0% 10%;
+}
+
+.actions-item {
+	float: left;
+	margin: 2px 10px;
+}
+
+.action-bar-container {
+	padding: 10px 0px;
+}
+
+#trigger_actions input[type=date] {
+	height: 28px;
+}
+
+/* ----- BUTTONS ----- */
+.filter-bar-container .filter-trigger-history-button {
+	color: #555;
+	border-color: #ccc;
+	background: #e1e1e1;
+	-webkit-box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+	box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+	vertical-align: top;
+}
+
+.action-bar-container .export-trigger-history-button {
+	background: #0086b6;
+	border-color: #0073aa;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+	box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+	color: #fff;
+	text-decoration: none;
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+	text-shadow: none;
+}
+
+.action-bar-container .delete-trigger-history-button {
+	background: #d9534f;
+	border-color: #d2433f;
+	-webkit-box-shadow: inset 0 1px 0 rgba(230, 120, 140, 0.5),0 1px 0 rgba(0,0,0,.15);
+	box-shadow: inset 0 1px 0 rgba(230, 120, 140, 0.5),0 1px 0 rgba(0,0,0,.15);
+	color: #fff;
+	text-decoration: none;
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+	text-shadow: none;
+}
+
+.action-bar-container .delete-trigger-history-button:focus, .action-bar-container .delete-trigger-history-button:hover {
+	background: #e26561;
+	border-color: #d2433f;
+	-webkit-box-shadow: inset 0 1px 0 rgba(230, 120, 140, 0.5),0 1px 0 rgba(0,0,0,.15);
+	box-shadow: inset 0 1px 0 rgba(230, 120, 140, 0.5),0 1px 0 rgba(0,0,0,.15);
+	color: #fff;
+}
+/* ----- BUTTONS ----- */
+
+.trigger-history-table .check-column {
+	width: 1em;
+}
+
+.trigger-history-table th.check-column {
+	padding: 10px 0px 0px 0px;
+}
+
+.trigger-history-table input[type=checkbox] {
+	margin: 0px;
+}
+
+@media screen and (max-width: 782px) {
+	#trigger_actions .action-container {
+		display: block;
+		padding: 0px 2%;
+	}
+
+	.filter-bar-container {
+		margin-top: 20px;
+	}
+
+	.actions-item {
+		float: none;
+		margin: 20px 0px;
+	}
+
+	#trigger_actions input[type=date] {
+		height: 36px;
+		font-size: 16px;
+	}
+
+	.date-range-title {
+		display: block;
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+
+	.pagination-title {
+		font-size: 16px;
+	}
+
+	.filter-bar-container .filter-trigger-history-button {
+		font-size: 16px;
+	}
+
+	#trigger_actions .wp-list-table tr:not(.inline-edit-row):not(.no-items) td:not(.check-column) {
+		display: table-cell;
+	}
+
+	#trigger_actions .tablenav .tablenav-pages {
+		text-align: left;
+		margin-top: 15px;
+	}
+
+	.trigger-history-info-bar {
+		line-height: 1.5;
+	}
+}

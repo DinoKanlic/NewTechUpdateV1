@@ -1,0 +1,1 @@
+This license for WP Triggers is valid for ONE porject/site.  You cannot install this plugin on multiple websites / URL's.  If you want to install this on more than one website please be like Fonzy (he was cool) and snag a new copy.

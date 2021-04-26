@@ -1,0 +1,30 @@
+2021-04-26T01:21:08+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting ')' in C:\wamp64\www\newtech.com\wp-content\themes\generatepress_child\functions.php in Zeile 38
+
+2021-04-26T01:21:09+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting ')' in C:\wamp64\www\newtech.com\wp-content\themes\generatepress_child\functions.php in Zeile 38
+
+2021-04-26T01:42:55+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\wamp64\www\newtech.com\wp-content\themes\generatepress_child\single-ansprechpersonen.php in Zeile 33
+
+2021-04-26T01:49:41+00:00 CRITICAL syntax error, unexpected ':' in C:\wamp64\www\newtech.com\wp-content\themes\generatepress_child\single-ansprechpersonen.php in Zeile 26
+
+2021-04-26T01:50:17+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\wamp64\www\newtech.com\wp-content\themes\generatepress_child\single-ansprechpersonen.php in Zeile 34
+
+2021-04-26T01:50:18+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\wamp64\www\newtech.com\wp-content\themes\generatepress_child\single-ansprechpersonen.php in Zeile 34
+
+2021-04-26T01:50:45+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\wamp64\www\newtech.com\wp-content\themes\generatepress_child\single-ansprechpersonen.php in Zeile 44
+
+2021-04-26T01:50:46+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\wamp64\www\newtech.com\wp-content\themes\generatepress_child\single-ansprechpersonen.php in Zeile 44
+
+2021-04-26T01:51:15+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\wamp64\www\newtech.com\wp-content\themes\generatepress_child\single-ansprechpersonen.php in Zeile 44
+
+2021-04-26T01:51:17+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\wamp64\www\newtech.com\wp-content\themes\generatepress_child\single-ansprechpersonen.php in Zeile 44
+
+2021-04-26T01:51:17+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\wamp64\www\newtech.com\wp-content\themes\generatepress_child\single-ansprechpersonen.php in Zeile 44
+
+2021-04-26T01:51:17+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\wamp64\www\newtech.com\wp-content\themes\generatepress_child\single-ansprechpersonen.php in Zeile 44
+
+2021-04-26T01:51:17+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\wamp64\www\newtech.com\wp-content\themes\generatepress_child\single-ansprechpersonen.php in Zeile 44
+
+2021-04-26T01:51:41+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\wamp64\www\newtech.com\wp-content\themes\generatepress_child\single-ansprechpersonen.php in Zeile 44
+
+2021-04-26T01:51:43+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\wamp64\www\newtech.com\wp-content\themes\generatepress_child\single-ansprechpersonen.php in Zeile 44
+

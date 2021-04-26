@@ -1,0 +1,9 @@
+.trigger-list-table th.check-column {
+	padding: 7px 0px 0px 3px;
+}
+
+@media screen and (max-width: 782px) {
+	.trigger-list-table tr:not(.inline-edit-row):not(.no-items) td:not(.check-column) {
+		display: table-cell;
+	}
+}

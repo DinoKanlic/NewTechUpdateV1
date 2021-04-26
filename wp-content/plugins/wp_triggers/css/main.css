@@ -1,0 +1,67 @@
+/* ---- plugin-wrap content ---- */
+.plugin-wrap, .plugin-wrap h2 {
+	font-family: font-family: Helvetica, sans-serif;
+}
+
+.plugin-wrap input {
+	-moz-border-radius: 0.3em;
+	border-radius: 0.3em;
+	padding: 3px 5px;
+	font-size: 12px;
+}
+
+.loading {
+	background-image: url("../img/ajax-loader.gif");
+	padding: 0px 7px;
+	background-repeat: no-repeat;
+}
+
+.plugin-wrap fieldset {
+	border: 1px solid #d9d6d6;
+	padding: 5px 10px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.plugin-wrap legend {
+	font-size: 16px;
+}
+
+/* ---- error message ----- */
+.mymessage {
+	padding: 7px 10px;
+	-moz-border-radius: 0.3em;
+	border-radius: 0.3em;
+	margin-bottom: 15px;
+	display: none;
+}
+
+.err_message {
+	background-color: lightYellow;
+	border: 1px solid #E6DB55;
+}
+
+.scss_message {
+	background-color: #c2d6f9;
+	border: 1px solid #a2c2fc;
+}
+
+/* ---- postbox ------- */
+.hndle {
+	padding: 5px 10px;
+	margin: 0px;
+}
+
+#trigger_frm input[type="radio"] {
+	border-radius: 50px !important;
+}
+
+.file-upload-button {
+	background-color: #e0e0e0 !important;
+	font-weight: bold;
+}
+
+.file-upload-button input[type=file] {
+	opacity: 0 !important;
+	position: absolute !important;
+}

@@ -1,0 +1,367 @@
+#add-trigger-content {
+	/*width:800px;*//*600px;*/
+	margin-top: 20px;
+}
+
+#triggerbox_name {
+	margin-top: 10px;
+}
+
+#add-trigger-content .trigger-txt {
+	width: 100%;
+	padding: 5px;
+	font-size: 16px;
+}
+
+#add-trigger-content .small-trigger-txt {
+	padding: 3px;
+	font-size: 13px;
+}
+
+#add-trigger-content .one_set_content {
+	margin-top: 10px;
+}
+
+#add-trigger-content .trigger_button {
+	padding: 0px 15px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#add-trigger-content .trigger_set_remove {
+	float: right;
+	margin-right: 10px;
+}
+
+#add-trigger-content textarea {
+	border-color: #a6a3a3;
+	width: 100%;
+}
+
+#add-trigger-content fieldset {
+	margin-top: 25px;
+}
+
+#add-trigger-content .txtarea_div {
+	width: 100%;
+}
+
+#add-trigger-content .txtarea_div label {
+	/*opacity: 0.7;*/
+}
+
+.trigger_valid_email_content {
+	float: left;
+	margin-top: -25px;
+}
+
+.trigger_valid_email, .trigger_valid_redirect {
+	cursor: pointer;
+}
+
+.trigger_redirect_url {
+	width: 100%;
+	margin-top: 10px;
+	border: 1px solid #a6a3a3 !important;
+}
+
+.mymessage {
+	margin-top: 5px;
+}
+
+/*.shortcode_chk_cont {
+	margin-left: 15px;
+}*/
+
+.shortcode_chk {
+	cursor: pointer;
+}
+
+.wptgg_span_1 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.wptgg_span_2 {
+	font-size: 13px;
+}
+
+.wptgg_span_3 {
+	font-size: 11px;
+	margin-left: 16px;
+}
+
+.type_txt, .display_txt {
+	width: 95% !important;
+	margin-left: 16px;
+}
+
+.wptrgg_valid, .trigger_html_redirect {
+	cursor: pointer;
+}
+
+/* The CSS */
+select {
+	padding: 3px;
+	margin: 0px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	/*border-radius: 4px;
+	background: #eee;*/
+	color: #333;
+	/*border: none;*/
+	outline: none;
+	display: inline-block;
+	/*-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance:none;*/
+	cursor: pointer;
+}
+
+.wptgg-optinbox-container {
+	margin-top: 10px;
+	padding: 5px 25px 10px;
+	background-color: #eaeaea;
+}
+
+.wptgg-optinbox-container input[type="text"] {
+	width: 100%;
+}
+
+.wptgg-optinbox-container .wp-editor-wrap {
+	padding-left: 25px;
+}
+
+.wptgg-optinbox-options-container .shortcode_chk_cont {
+	padding-left: 25px;
+}
+
+#no_found_optinbox_redirect_url {
+	margin-top: 10px;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	select {
+		padding-right: 18px;
+	}
+}
+
+.stylingSelect {
+	position: relative;
+}
+
+.stylingSelect:after {
+	content: '<>';
+	font: 11px "Consolas", monospace;
+	color: #aaa;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	right: 8px;
+	top: 2px;
+	padding: 0px 0px 2px;
+	position: absolute;
+	pointer-events: none;
+}
+
+.stylingSelect:before {
+	content: '';
+	right: 3px;
+	top: -3px;
+	width: 20px;
+	height: 22px;
+	background: #f8f8f8;
+	position: absolute;
+	pointer-events: none;
+	display: block;
+}
+
+.Fields {
+	margin-bottom: 25px;
+}
+
+.Fields .left {
+	float: left;
+	width: 200px;
+}
+
+.Fields .right {
+	float: left;
+}
+
+.clr {
+	clear: both;
+}
+
+.Fields .right div {
+	margin-bottom: 20px;
+}
+
+.Fields .right div label {
+	margin-right: 10px;
+}
+
+.boxPlacement {
+	width: 125px !important;
+}
+
+.button-custom-style {
+	padding-left: 25px;
+}
+
+.button-custom-style .Fields {
+	margin-left: 25px;
+}
+
+.button-custom-style .Fields input {
+	width: 50px;
+}
+
+.image-button-style {
+	padding-left: 25px;
+}
+
+.image-button-style .Fields input {
+	width: 50px;
+}
+
+ul.button-layout-list li {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+
+.trigger-box-styling-options-container {
+	margin-left: 25px;
+}
+
+.trigger-checkbox-small {
+	border-radius: 12px;
+	height: 12px;
+	width: 25px;
+	background-color: #d8d9db !important;
+}
+
+.trigger-checkbox-small small {
+	height: 12px;
+	width: 12px;
+}
+
+.wildcard-guide {
+	width: 34px;
+	height: 19px;
+	display: inline-block;
+	background-image: url("./../../../img/wildcards_guide.png");
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+
+.wp-core-ui .wildcard-guide-button {
+	background: #707070;
+	border-color: #707070;
+	color: #fff;
+	box-shadow: none;
+	height: 31px;
+}
+
+.wp-core-ui .wildcard-guide-button:hover {
+	background: #707070 !important;
+	border-color: #707070 !important;
+	color: #fff !important;
+}
+
+fieldset.trigger-not-found-fieldset {
+	background-color: #fbfbfb;
+	padding-left: 15px;
+	padding-bottom: 30px;
+}
+
+.trigger-not-found-fieldset>h3 {
+	padding: 20px 0px 10px 0px;
+	margin: 0px;
+}
+
+.trigger_general_option {
+	background-color: #fbfbfb;
+}
+
+.trigger_general_option .placeholder {
+	width: 200px;
+}
+
+.trigger_styling_controls {
+	background-color: #fbfbfb;
+}
+
+.trigger_styling_controls .Fields {
+	margin-bottom: 10px;
+}
+
+.color-field {
+	background: #fff;
+	border: 1px solid #ddd;
+	width: 135px;
+	margin: 0px !important;
+}
+
+.color-field input[type=color] {
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.color-field input[type=text] {
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	width: 70px;
+}
+
+.trigger-box-styling-options-container input[type=text], .trigger-box-styling-options-container input[type=number] {
+	width: 70px;
+}
+
+.trigger_button_options {
+	background-color: #fbfbfb;
+}
+
+.trigger_button_options div.Fields, .trigger_button_options .Fields .right div {
+	margin-bottom: 5px;
+}
+
+.trigger_button_options div.Fields .clr {
+	margin: 0px;
+}
+
+.BtnLink {
+	width: 200px;
+}
+
+#trigger_button_options_container {
+	margin-top: 20px;
+}
+
+/* ===== Spectrum styling ===== */
+.color-field .sp-replacer {
+	border: none;
+	margin: 1px !important;
+	background: none;
+}
+
+.color-field .sp-preview {
+	height: 12px !important;
+	border: 1px solid black !important;
+	margin: 0px !important;
+}
+
+.color-field .sp-preview-inner {
+	margin: 0px !important;
+}
+
+.color-field .sp-dd {
+	display: none;
+}
+
+/* ===== Spectrum styling ===== */

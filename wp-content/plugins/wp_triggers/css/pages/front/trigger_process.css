@@ -1,0 +1,5 @@
+.wptrigger_content {}
+
+.wptrigger_content .wptrigger {
+	border: 1px solid red;
+}
